@@ -1,8 +1,8 @@
 language: java
 script: mvn clean package
-
 deploy:
   provider: bintray
-  file: "bintray.json"
-  user: "name"
-  key: "key"
+  file: bintray.json
+  user: thefreaklord
+  key:
+    secure: xUoPo34bAyJsg2MCU+lct5TyTwb/tP7IVVuAyBy1JONk94v91u6EPL4fWaSUotG1/9rQKx7dxdF/mzGAiKAa31nJbE6mGVvB7+4TTFUFhyURZNqFep1WQO6ACnGmDiZy/Foj6TYrhuLoUm0CyNQZichotWIT+KihaPUV5fTiGLXvlu2Hgcn2R9vscPt2dgpY/p2HEf8B9EuZFvBVld7t6o31kR+UUH5VfJjwTEcZpR+mAKtvWH3mkT+yQ3SXwC8oPYAwhOPkcdFgNsDTnt5QDadPhXFucFoaLMVFTo9pZ/o9Ef/MQApwB0u07IR/UMGkyZsrhxFlLs1al0kzbq1v3lxQaRzCtr5LY5KrGhP2nxQpswQiY5D/KmQ8eFr6ZKnB4kOUesTh9JYIE8HOM9xzWG82oY5suwoci3opAgEUIki6v2y8hWUjsuIuvHlv9VAQenY3ZeUfQk9aQ8hz1jFwOLFicsYdwNNDeTw0tflkN28PigyICdA2Xg1zGjSNeSPIGVJThAMFkKlNqSLZIXgopHZK8rHQWv8FV2d0MbdNnseDXRVGy+SUbY60keCVdAAIGljICwMEq5+naa0bA2uRvFQUf4WNziektoAEKDb8A6yJl7rwp9Fy+mtBIXfzwRI/mQqQUSK4EpVmGSMmoAKo0UjR0VVocYKYbkqcqoz8fRk=

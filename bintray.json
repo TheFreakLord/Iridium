@@ -1,12 +1,12 @@
 {
     "package": {
-        "name": "name", // Bintray package name
+        "name": "Iridium", // Bintray package name
         "repo": "maven", // Bintray repository name
-        "subject": "username" // Bintray subject (user or organization)
+        "subject": "thefreaklord" // Bintray subject (user or organization)
     },
 
     "version": {
-        "name": "1.0" //Version
+        "name": "0.1" //Version
     },
 
     "files":
