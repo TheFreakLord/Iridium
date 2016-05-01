@@ -6,12 +6,12 @@
     },
 
     "version": {
-        "name": "0.1" //Version
+        "name": "0.1.1" //Version
     },
 
     "files":
         [
-        {"includePattern": "target/Iridium.jar", "uploadPattern": "/$1", "matrixParams": {"override": 1}}
+        {"includePattern": "target/Iridium.jar", "uploadPattern": "/Iridium.jar", "matrixParams": {"override": 1}}
         ],
     "publish": true
 }
