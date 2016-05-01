@@ -1,0 +1,6 @@
+# No idea why such files are added
+
+*.yml~
+*.json~
+.gitignore~
+/target

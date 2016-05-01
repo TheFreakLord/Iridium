@@ -1,0 +1,17 @@
+{
+    "package": {
+        "name": "name", // Bintray package name
+        "repo": "maven", // Bintray repository name
+        "subject": "username" // Bintray subject (user or organization)
+    },
+
+    "version": {
+        "name": "1.0" //Version
+    },
+
+    "files":
+        [
+        {"includePattern": "target/(.*)", "uploadPattern": "/$1"}
+        ],
+    "publish": true
+}

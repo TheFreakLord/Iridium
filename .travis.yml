@@ -1,0 +1,8 @@
+language: java
+script: mvn clean package
+
+deploy:
+  provider: bintray
+  file: "bintray.json"
+  user: "name"
+  key: "key"
